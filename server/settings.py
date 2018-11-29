@@ -24,24 +24,24 @@ DB_PWD='test123'
 DB_CHAR='utf8'
 
 #mongo
-mghost="mongost01-jp",
+mghost="",
 mgport=27027,
-mguser ="yeeactivityrw",
-mgpassword="yeeactivityrwpwdonline",
-mgdatabase="yeeactivity",
+mguser ="",
+mgpassword="",
+mgdatabase="",
 
 # urls queue
-REDIS_HOST = '172.32.27.238'
+REDIS_HOST = ''
 REDIS_PORT = 6379
 
 #mongod
-MONGO_DB = "yeeactivity"
-MONGO_HOST = "mongost01-jp"
+MONGO_DB = ""
+MONGO_HOST = ""
 MONGO_PORT = 27027
-MONGO_USER = "yeeactivityrw"
-MONGO_PASS = "yeeactivityrwpwdonline"
+MONGO_USER = ""
+MONGO_PASS = ""
 #MONGO_URI = 'mongodb://%s:%s@%s:%s/%s' % (MONGO_USER, MONGO_PASS, MONGO_HOST, MONGO_PORT, MONGO_DB)
-MONGO_URI = 'mongodb://yeeactivityrw:yeeactivityrwpwdonline@mongost01-jp:27027,mongo01-jp:27027/yeeactivity?readPreference=nearest'
+MONGO_URI = 'mongodb://xxxxxxxxxxxxx:xxxxxxxxxxxxxxxxxxxxxx@xxxxxxxx1-jp:27027,xxxxxxx-jp:27027/yeeactivity?readPreference=nearest'
 # Specify the full Redis URL for connecting (optional).
 # If set, this takes precedence over the REDIS_HOST and REDIS_PORT settings.
 # REDIS_URL = 'redis://127.0.0.1:6379'
@@ -59,14 +59,13 @@ REDIS_START_URLS_AS_SET = True
 # How many start urls to fetch at once.
 REDIS_START_URLS_BATCH_SIZE = 16
 
-HANDLER_SERVERS=['172.32.27.74:6990','172.32.27.238:6990']
+HANDLER_SERVERS=['xxxxxxxxxxxx:6990','xxxxxxxxxxxxx:6990']
 
-activity_url = "https://activityw.yeefoundation.com/yeeactivity/invite?u={}"
+activity_url = "https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxe?u={}"
 
-#token = '418386695:AAGwCKatX1jdD5LzH9uq5eytU9NEXUyCRl8'
-token = '521390845:AAEgRQdwyB_lo2xVGF00DU8QLnGKfZaFdGQ'
+token = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
-groupId = '-1001341931524' 
+groupId = 'xxxxxxxxxxxxxx' 
 #welcomeHint = 'Welcome join Yee Official Telegram group. Please tap my profile and register your ETH wallet address before share your referral link.'
 #helpHint = 'YeeBot is very happy to help you. Instruction: :\n /help - FAQ \n /set_address - Register your ETH wallet address \n /my_address - check your current ETH wallet address\n /update_address -  update your current ETH wallet address\n /my_coin - check my YEE rewards\n /my_connect - Get my referral link'
 #setAdressHint = 'Please sent me your ETH wallet address and make sure the address is correct'
@@ -106,10 +105,10 @@ sendYeeHintBig3 = "😍Congratulations! You earned {} YEE\n Successfully invited
 
 sendYeeHintBig3000="😍Congratulations! You earned 3000 YEE🚀"
 busyHint="🙊 System is busing, please try again later!"
-whiteList='464243276,457527172,474357897,532493508,98998871,432439958,513120137,506422766,404963270,236223931,474942644,523559933,328914416'
+whiteList='da'
 showCoinHintbig90000 = "😍Congratulations! You earned 90,000 YEE🚀 \n\n►The maximum YEE one user in telegram group could get through this airdrop event is 3000 YEE\n\nMore detail rules can be found at https://goo.gl/fbmu8t"
 
-whiteList='464243276,457527172,474357897,532493508,98998871,432439958,513120137,506422766,404963270,236223931,474942644,523559933,328914416'
+whiteList=''
 showCoinHintbig90000 = "😍Congratulations! You earned 90,000 YEE🚀 \n\n►The maximum YEE one user in telegram group could get through this airdrop event is 3000 YEE\n\nMore detail rules can be found at https://goo.gl/fbmu8t"
 
 MAX_TOKEN=2000
