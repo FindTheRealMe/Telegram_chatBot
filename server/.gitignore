@@ -1,0 +1,7 @@
+log/
+logs/
+*.temp
+servervenv
+servervenv3
+*.pyc
+*.bak
